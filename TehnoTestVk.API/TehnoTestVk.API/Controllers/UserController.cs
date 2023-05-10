@@ -21,7 +21,7 @@ namespace TechnoTest.API.Controllers
         }
 
         [HttpGet(Name = "GetAllUsersAsync")]
-        public async Task<IActionResult> GetAllActiveUsersAsync()
+        public async Task<IActionResult> GetAllUsersAsync()
         {
             try
             {
